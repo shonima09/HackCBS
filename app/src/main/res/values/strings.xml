@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HackCBS</string>
+
+    <string name="register">register</string>
+    <string name="not_registered">not registered ?</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="sign_in">sign in</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="address_1">address 1</string>
+    <string name="address2">address 2</string>
+    <string name="city">city</string>
+    <string name="state">state</string>
+    <string name="country">country</string>
+    <string name="zipcode">zipcode</string>
+    <string name="email">email</string>
+    <string name="phone_no">phone no</string>
+    <string name="already_registered">already registered</string>
+</resources>

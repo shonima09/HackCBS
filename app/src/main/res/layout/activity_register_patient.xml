@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="true"
+    android:scrollbarStyle="insideInset">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ecf4bc"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="127dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/hospital"/>
+
+        <EditText
+            android:id="@+id/edittext_username"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Username"
+             />
+
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Password"
+            android:inputType="textAutoComplete|textPassword" />
+
+        <EditText
+            android:id="@+id/etcpassword"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etfname"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/etlname"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/etGuardianName"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Guardian's Name" />
+
+
+
+        <EditText
+            android:id="@+id/etBloodGroup"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Blood Group" />
+
+        <EditText
+            android:id="@+id/etDOB"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Date of Birth" />
+
+
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Email id" />
+
+        <EditText
+            android:id="@+id/etPhoneNo"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:paddingLeft="10dp"
+            android:hint="Phone number" />
+
+        <EditText
+            android:id="@+id/etDisease"
+            android:layout_width="279dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:gravity="top"
+            android:paddingLeft="10dp"
+            android:hint="Disease" />
+
+
+        <Button
+            android:id="@+id/bsubmit"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#04ea00"
+            android:text="REGISTER"
+            android:textColor="#ffffff" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:hint="@string/already_registered"
+                android:textColor="#123456" />
+
+            <TextView
+                android:id="@+id/tvsignup"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:hint="@string/sign_in"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
